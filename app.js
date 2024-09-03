@@ -10,6 +10,9 @@ const couponDatabase = {
   fghyttgrfedwrt: null,
   trryuhgfrer: null,
   tryhgfsetryt: null,
+  vdsabjiuadvs:null,
+  hbasdbadfiuiu:null,
+  sdkbfjfdksdewu:null
 };
 
 app.get("/", (req, res) => {
