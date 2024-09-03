@@ -4,8 +4,11 @@ app = Flask(__name__)
 
 # In-memory database to store coupon codes and associated MAC addresses
 coupon_database = {
-    "COUPON123": None,  # Example coupon with no MAC address linked yet
-    "COUPON456": "00:1B:44:11:3A:B7",  # Example coupon already linked to a MAC address
+    "dfgthgbfds": None,  # Example coupon with no MAC address linked yet
+    "crdtfyguihgf": None,  # Example coupon already linked to a MAC address
+    "fghyttgrfedwrt":None,
+    "trryuhgfrer":None,
+    "tryhgfsetryt":None
 }
 
 @app.route('/validate_coupon', methods=['POST'])
