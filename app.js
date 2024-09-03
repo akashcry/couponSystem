@@ -5,7 +5,6 @@ app.use(express.json()); // For parsing application/json
 
 // In-memory database to store coupon codes and associated MAC addresses
 const couponDatabase = {
-  dfgthgbfds: null, // Example coupon with no MAC address linked yet
   crdtfyguihgf: null, // Example coupon already linked to a MAC address
   fghyttgrfedwrt: null,
   trryuhgfrer: null,
