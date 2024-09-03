@@ -10,7 +10,9 @@ coupon_database = {
     "trryuhgfrer":None,
     "tryhgfsetryt":None
 }
-
+@app.route('/')
+def hello_world():
+    return 'Hello, World!'
 @app.route('/validate_coupon', methods=['POST'])
 def validate_coupon():
     data = request.json
